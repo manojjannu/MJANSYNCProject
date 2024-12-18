@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/manojjannu
   gitUsername: manojjannu
   gitBranch: main
+services:
+- serviceName: project.mjansync.integrations:flow1
+  packages:
+  - name: MJANSYNCProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2024
